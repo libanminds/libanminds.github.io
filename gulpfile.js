@@ -7,8 +7,8 @@ gulp.task("css", () => {
         .src("src/css/main.scss")
         .pipe(sass({ outputStyle: "compressed" }))
         .pipe(purgecss({
-            content: ["public/*.html"],
+            content: ["docs/*.html"],
             whitelist: ["floating-header", "sticky-header", "primary-menu-open", "d-block"],
         }))
-        .pipe(gulp.dest("public/css/"));
+        .pipe(gulp.dest("docs/css/"));
 });
