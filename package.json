@@ -1,0 +1,17 @@
+{
+  "name": "libanminds.github.io",
+  "version": "1.0.0",
+  "description": "🌐 Official LibanMinds Website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LibanMinds",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-purgecss": "^2.3.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
