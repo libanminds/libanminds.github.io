@@ -1,10 +1,6 @@
 # LibanMinds
 
 🌐 Official LibanMinds Website
- 
-## Tech stack
-
-Uses [jigsaw](https://github.com/tightenco/jigsaw) to generate the static site using blade templating.
 
 ## Theme
 
